@@ -1,0 +1,50 @@
+.main {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #021d40;
+  padding: 0 300px 0 300px;
+}
+
+.image {
+  width: 200px;
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.hero_main {
+  height: 92vh;
+  background-image: linear-gradient(
+    to right top,
+    rgba(251, 249, 252, 0.505),
+    rgba(248, 249, 247, 0.504)
+  ),
+  url("../public/hero.webp");
+background-size: cover;
+background-position: top;
+animation: scaleDown 10s ease-in-out;
+}
+
+@keyframes scaleDown {
+0% {
+    background-size: 115%;
+}
+100% {
+    background-size: 100%;
+}
+}
