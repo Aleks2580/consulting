@@ -1,15 +1,19 @@
 .about_container{
+  height: 92vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     padding: 20px;
-    background: #f0f0f0;
+    background: #041d3dec;
   }
   .about_card {
     flex: 1;
+    justify-content: center;
     min-width: 280px;
     max-width: 340px;
+    height: 45vh;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -25,12 +29,13 @@
     object-fit: cover;
   }
   .about_title {
-    color: #333;
+    text-align: center;
+    color: #021d40;
     padding: 10px;
   }
   .about_text, .about_list {
     padding: 0 10px 10px;
-    color: #666;
+    color: #021d40;
     line-height: 1.5;
   }
   .about_point {
