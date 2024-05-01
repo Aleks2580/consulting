@@ -1,0 +1,43 @@
+.header_main {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #021d40;
+  padding: 0 300px 0 300px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.image {
+  width: 200px;
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: border-bottom 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.link_wrapper {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link:hover {
+  border-bottom: 1px solid #ffffff;
+}

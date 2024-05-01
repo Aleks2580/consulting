@@ -1,8 +1,8 @@
 .mouse {
     margin: 50px auto;
     width: 100px;
-    position: absolute;
-    top: 85%;
+    position: sticky;
+    top: 95%;
     left: 50%;
   }
   
