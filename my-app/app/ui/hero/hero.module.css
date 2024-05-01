@@ -1,0 +1,69 @@
+.hero_main {
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 300px 0 300px;
+    background-image: linear-gradient(
+      to right top,
+      rgba(24, 81, 106, 0.573),
+      rgba(248, 249, 247, 0)
+    ),
+    url("../../../public/hero.webp");
+  background-size: cover;
+  background-position: top;
+  animation: scaleDown 10s ease-in-out;
+  }
+  
+  @keyframes scaleDown {
+  0% {
+      background-size: 115%;
+  }
+  100% {
+      background-size: 100%;
+  }
+  }
+  
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70vw;
+    margin-bottom: 80px;
+    padding: 0;
+  }
+  
+  .hero_title {
+    font-size: 32px;
+    color:#ffffff;
+    width: 500px;
+  }
+  
+  .hero_text {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 500px;
+    line-height: 35px;
+    position: relative;
+  }
+
+  .hero_button {
+    width: 100px;
+    padding: 12px;
+    font-size: 14px;
+    margin-top: 35px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #021d40;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .hero_button:hover {
+    scale: 1.1;
+    transition: 0.3s ease-in-out; 
+  }
