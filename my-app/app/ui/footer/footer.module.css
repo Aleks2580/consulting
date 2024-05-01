@@ -1,0 +1,13 @@
+.footer_main {
+    background-color: #021d40;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .footer_text, .footer_date {
+    margin: 0;
+    padding: 5px;
+    color: #f0f0f0;
+  }

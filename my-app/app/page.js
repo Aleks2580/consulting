@@ -6,6 +6,7 @@ import About from "./ui/about/about";
 import Services from "./ui/services/services";
 import Cases from "./ui/cases/cases";
 import Contacts from "./ui/contacts/contacts";
+import Footer from "./ui/footer/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <div id="services"><Services /></div>
       <div id="cases"><Cases /></div>
       <div id="contacts"><Contacts /></div>
+      <Footer/>
     </main>
   );
 }
