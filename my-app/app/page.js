@@ -8,12 +8,12 @@ import Cases from "./ui/cases/cases";
 import Contacts from "./ui/contacts/contacts";
 import Footer from "./ui/footer/footer";
 
+
 export default function Home() {
   return (
     <main>
       <Header/>
       <Hero />
-      {/* <Mouse /> */}
       <div id="about"><About /></div>
       <div id="services"><Services /></div>
       <div id="cases"><Cases /></div>
