@@ -1,11 +1,9 @@
-/* .cases_main {
-    height: 92vh;
-} */
-
-
 .cases_section {
     height: 92vh;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #041d3dec;
   }
   
@@ -16,15 +14,16 @@
   
   .cases_grid {
     display: grid;
+    justify-content: center;
+    align-content: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
   }
   
   .flip_card {
     background-color: transparent;
-    width: 100%;
+    width: 200px;
     height: 200px; /* Adjust height as needed */
-    border: 1px solid #f1f1f1;
     perspective: 1000px;
   }
   

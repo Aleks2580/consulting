@@ -1,3 +1,11 @@
 .services_main {
     height: 92vh;
+    background-image: linear-gradient(
+        to right top,
+        rgba(207, 210, 211, 0),
+        rgba(248, 249, 247, 0)
+      ),
+      url("../../../public/servicesBg.webp");
+    background-size: cover;
+    background-position: center;
 }
