@@ -1,16 +1,34 @@
-import styles from "./header.module.css"
+"use client"
+import { useState } from "react";
+import styles from "./header.module.css";
 import Link from 'next/link';
 
 export default function Header() {
+  const navLinks = [
+    { id: 'about', title: 'About Us' },
+    { id: 'services', title: 'Services' },
+    { id: 'cases', title: 'Cases' },
+    { id: 'contacts', title: 'Contacts' }
+  ];
+
+  const [active, setActive] = useState('');
+
   return (
     <header className={styles.header_main}>
-    <img className={styles.image} src="/logo.png"></img>
+    <Link href="/" onClick={() => setActive('')}><img className={styles.image} src="/logo.png" alt="Company Logo" /></Link>
     <div className={styles.nav}>
-        <Link className={styles.link_wrapper} href="#about"><span className={styles.link}>About Us</span></Link>
-        <Link className={styles.link_wrapper} href="#services"><span className={styles.link}>Services</span></Link>
-        <Link className={styles.link_wrapper} href="#cases"><span className={styles.link}>Cases</span></Link>
-        <Link className={styles.link_wrapper} href="#contacts"><span className={styles.link}>Contacts</span></Link>
-      </div>
+      {navLinks.map((link) => (
+        <Link 
+          key={link.id} 
+          href={`#${link.id}`} 
+          className={`${styles.link_wrapper} ${active === link.id ? styles.active : ''}`}
+          onClick={() => setActive(link.id)}
+        >
+          {link.title}
+        </Link>
+      ))}
+    </div>
   </header>
-  )
+  );
 }
+

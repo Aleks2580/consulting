@@ -12,7 +12,7 @@ import Footer from "./ui/footer/footer";
 export default function Home() {
   return (
     <main>
-      <Header/>
+      <div className={styles.header} id="/"><Header/></div>
       <Hero />
       <div id="about"><About /></div>
       <div id="services"><Services /></div>

@@ -38,6 +38,6 @@
   color: #ffffff;
 }
 
-.link:hover {
+.link_wrapper:hover, .link_wrapper.active {
   border-bottom: 1px solid #ffffff;
 }
