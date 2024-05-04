@@ -42,3 +42,52 @@
     list-style-type: none;
     padding: 5px 0;
   }
+
+  @media only screen and (max-width: 1500px) {
+    .about_container{
+        gap: 10px;
+      }
+
+      .about_card {
+        width: 290px;
+        height: 55vh;
+   
+      }
+  }
+
+  @media only screen and (max-width: 1250px) {
+
+    .about_card {
+      width: 250px;
+      height: 40vh;
+ 
+    }
+    .about_img {
+      height: 150px;
+    }
+    .about_title {
+      padding: 5px;
+      font-size: 14px;
+    }
+    .about_text, .about_list {
+      padding: 0 5px 5px;
+      font-size: 12px;
+    }
+    .about_point {
+      padding: 2px 0;
+    }
+  }
+
+  @media only screen and (max-width: 1250px) {
+
+    .about_container{
+      height: auto;
+    }
+
+    .about_card {
+      height: 45vh;
+    }
+    .about_img {
+      height: 200px;
+    }
+  }
