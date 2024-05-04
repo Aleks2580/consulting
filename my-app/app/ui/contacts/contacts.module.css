@@ -1,5 +1,5 @@
 .contacts_main {
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +39,38 @@
   .contact_a {
     text-decoration: none;
     color: #ffffff;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .contacts_main {
+      height: 30vh;
+    }
+
+    .contact_img {
+      width: 40px;
+    }
+  
+    .contact_text {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .contacts_main {
+      height: 20vh;
+    }
+
+    .contact_img {
+      width: 20px;
+    }
+  
+    .contact_text {
+      font-size: 12px;
+    }
+
+      
+  .contact_item {
+   height: 50px;
+  }
+
   }
