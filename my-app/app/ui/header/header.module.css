@@ -41,3 +41,49 @@
 .link_wrapper:hover, .link_wrapper.active {
   border-bottom: 1px solid #ffffff;
 }
+
+
+@media only screen and (max-width: 1500px) {
+  .header_main {
+    padding: 0 200px 0 200px;
+  }
+
+  .nav {
+    width: 50%;
+  }
+
+  .image {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .image {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .header_main {
+    padding: 0 50px 0 50px;
+  }
+
+  .nav {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header_main {
+    padding: 0 10px 0 10px;
+  }
+
+  .nav {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .image {
+    width: 120px;
+  }
+}

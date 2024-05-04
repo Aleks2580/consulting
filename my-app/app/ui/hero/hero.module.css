@@ -11,19 +11,20 @@
       rgba(248, 249, 247, 0)
     ),
     url("../../../public/hero.webp");
-  background-size: cover;
-  background-position: top;
-  animation: scaleDown 10s ease-in-out;
-  }
-  
-  @keyframes scaleDown {
-  0% {
-      background-size: 115%;
-  }
-  100% {
-      background-size: 100%;
-  }
-  }
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    animation: scaleDown 10s ease-in-out;
+    }
+    
+    @keyframes scaleDown {
+    0% {
+        background-size: 115%;
+    }
+    100% {
+        background-size: 100%;
+    }
+    }
   
   .hero_content {
     display: flex;
@@ -65,3 +66,46 @@
     scale: 1.1;
     transition: 0.3s ease-in-out; 
   }
+
+
+@media only screen and (max-width: 1500px) {
+  .hero_main {
+    padding: 0 200px 0 200px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .hero_main {
+    animation: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hero_main {
+    padding: 0 50px 0 50px; 
+    background-position: right;
+  }
+
+  .hero_content {
+    width: auto;
+  }
+
+  .hero_title {
+    font-size: 26px;
+    width: 300px;
+  }
+  
+  .hero_text {
+    margin-top: 20px;   
+    font-size: 16px;
+    width: 300px;
+    line-height: 30px;
+  }
+
+  .hero_button {
+    width: 150px;
+    padding: 12px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}

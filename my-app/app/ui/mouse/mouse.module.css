@@ -64,3 +64,9 @@
           opacity: 0;
       }
   }
+
+  @media only screen and (max-width: 650px) {
+    .mouse {
+        top: 80%;
+    }
+}
