@@ -84,3 +84,71 @@
   .flip_card_back p {
     font-size: 16px;
   }
+
+  @media only screen and (max-width: 900px) {
+    .section_title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    .section_text {
+      font-size: 16px;
+      width: 500px;
+      margin-bottom: 10px;
+    }
+    
+    .services_grid {
+      gap: 10px;
+    }
+
+    .flip_card {
+      background-color: transparent;
+      width: 150px;
+      height: 150px;
+    }
+
+    .flip_card_front {
+font-size: 12px;
+    }
+    
+    .flip_card_back p {
+  font-size: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .services_section {
+      height: auto;
+    }
+    .section_title {
+      font-size: 22px;
+      margin-bottom: 5px;
+      margin-top: 60px;
+    }
+  
+    .section_text {
+      font-size: 16px;
+      width: 350px;
+      margin-bottom: 5px;
+      text-align: center;
+    }
+    
+    .services_grid {
+      gap: 5px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flip_card {
+      background-color: transparent;
+      width: 150px;
+      height: 150px;
+    }
+
+    .flip_card_front {
+font-size: 12px;
+    }
+    
+    .flip_card_back p {
+  font-size: 12px;
+    }
+  }
