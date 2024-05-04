@@ -89,3 +89,54 @@
   font-size: 16px;
   margin-top: 5px;
 }
+
+@media only screen and (max-width: 1400px) {
+  .case_item {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 10px;
+  }
+
+  .case_content {
+   font-size: 14px;
+   height: 140px;
+
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .case_item {
+    width: 220px;
+    height: 220px;
+  }
+
+  .case_content {
+   font-size: 14px;
+   height: 140px;
+
+  }
+
+  .header_title {
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .header_description {
+    font-size: 16px;
+  }
+
+  .case_title {
+    font-size: 18px;
+  }
+  
+  .case_description {
+    font-size: 14px;
+  }
+
+  .cases_section {
+    height: auto;
+  }
+}
