@@ -9,7 +9,7 @@ export default function About() {
         <div className={styles.about_card}>
           <img
             className={styles.about_img}
-            src="strategy.webp"
+            src="we.webp"
             alt="Strategic Consulting"
           />
           <h3 className={styles.about_title}>Who We Are</h3>
@@ -35,7 +35,7 @@ export default function About() {
         <div className={styles.about_card}>
           <img
             className={styles.about_img}
-            src="services.webp"
+            src="do.webp"
             alt="What We Do"
           />
           <h3 className={styles.about_title}>What We Do</h3>
