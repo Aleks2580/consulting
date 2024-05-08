@@ -11,7 +11,7 @@ export default function Cases() {
       <div className={styles.case_container}>
         <div className={styles.case_item}>
           <div className={styles.image_container}>
-            <Image src="/biogenhealth.webp" alt="BioGenHealth Case" width={300} height={300} className={styles.case_image} />
+            <img src="biogenhealth.webp" alt="BioGenHealth Case"className={styles.case_image} />
           </div>
           <div className={styles.case_content}>
             <h2 className={styles.case_title}>BioGenHealth</h2>
@@ -20,7 +20,7 @@ export default function Cases() {
         </div>
         <div className={styles.case_item}>
           <div className={styles.image_container}>
-            <Image src="/finsecure.webp" alt="FinSecure Case" width={300} height={300} className={styles.case_image} />
+            <img src="finsecure.webp" alt="FinSecure Case"className={styles.case_image} />
           </div>
           <div className={styles.case_content}>
             <h2 className={styles.case_title}>FinSecure</h2>
@@ -29,7 +29,7 @@ export default function Cases() {
         </div>
         <div className={styles.case_item}>
           <div className={styles.image_container}>
-            <Image src="/ecosynthetics.webp" alt="EcoSynthetics Case" width={300} height={300} className={styles.case_image} />
+            <img src="ecosynthetics.webp" alt="EcoSynthetics Case"className={styles.case_image} />
           </div>
           <div className={styles.case_content}>
             <h2 className={styles.case_title}>EcoSynthetics</h2>
@@ -38,7 +38,7 @@ export default function Cases() {
         </div>
         <div className={styles.case_item}>
           <div className={styles.image_container}>
-            <Image src="/medicaresolutions.webp" alt="MediCare Solutions Case" width={300} height={300} className={styles.case_image} />
+            <img src="medicaresolutions.webp" alt="MediCare Solutions Case" className={styles.case_image} />
           </div>
           <div className={styles.case_content}>
             <h2 className={styles.case_title}>MediCare Solutions</h2>
